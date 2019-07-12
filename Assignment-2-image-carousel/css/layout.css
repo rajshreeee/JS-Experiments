@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousel{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image_wrapper{
+    width: 1600px;
+}
+
+.image_wrapper img{
+    float: left;
+}
+
+.carousel .carousel-arrow-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel-arrow-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel-indicator-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

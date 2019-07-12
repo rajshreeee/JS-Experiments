@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Slider</title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+
+<body>
+    <div class="carousel" id="carousel">
+        <div class="image_wrapper">
+            <img src="./images/image1.jpg" alt="Image" />
+            <img src="./images/image2.jpg" alt="Image" />
+            <img src="./images/image3.jpg" alt="Image" />
+            <img src="./images/image1.jpg" alt="Image" />
+        </div>
+    </div>
+    
+    
+     <div class="carousel" id="carousel2">
+        <div class="image_wrapper">
+            <img src="./images/image1.jpg" alt="Image" />
+            <img src="./images/image2.jpg" alt="Image" />
+            <img src="./images/image3.jpg" alt="Image" />
+            <img src="./images/image1.jpg" alt="Image" />
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+      const carousel = new Carousel({
+        element: '#carousel',
+        width: 400
+        });
+       const carousel2 = new Carousel({
+            element: '#carousel2',
+            width:400
+        });  
+    </script>
+</body></html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flappy Bird</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Teko:700"
+      rel="stylesheet"
+    />
+    <style>
+      #gameScreen {
+        border: 1px solid #000;
+        display: block;
+        background-color: skyblue;
+        float: left;
+      }
+
+      #gameScreen2 {
+        border: 1px solid #000;
+        display: block;
+        background-color: skyblue;
+        float: right;
+      }
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="gameScreen" width="320" height="480"></canvas>
+    <canvas id="gameScreen2" width="320" height="480"></canvas>
+
+    <img src="./images/sprite.png" id="sprite" />
+    <script src="./src/index.js" type="module"></script>
+    <script src="./src/bird.js" type="module"></script>
+    <script src="./src/foreground.js" type="module"></script>
+    <script src="./src/game.js" type="module"></script>
+    <script src="./src/inputHandler.js" type="module"></script>
+    <script src="./src/pipes.js" type="module"></script>
+  </body>
+</html>
