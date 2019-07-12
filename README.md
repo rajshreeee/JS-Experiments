@@ -1,6 +1,5 @@
 # JS-Experiments
 
--[Assignment 1] (https://rajshreeee.github.io/JS-Experiments/Assignment-1box-collision/)
 
 - [Assignment 1](https://rajshreeee.github.io/JS-Experiments/Assignment-1box-collision/)
 - [Assignment 2](https://rajshreeee.github.io/JS-Experiments/Assignment-2-image-carousel/)
